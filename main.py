@@ -18,7 +18,7 @@ def ema(n, d):
     return result
 
 
-data = pd.read_csv('apator.csv')
+data = pd.read_csv('data/apator.csv')
 data = data.head(1000)
 x = data['Data']
 y = data['Zamkniecie']
